@@ -11,7 +11,7 @@ class GeoTechMonitoring extends HTMLElement {
                 flex-direction: column;
                 background: #F5F5F5;
                 border: black 2px solid;
-                margin-top: 30px
+                margin: 30px auto
             }
             .glt-wrapper-monitoring{
                 display: flex;

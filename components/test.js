@@ -6,13 +6,13 @@ template.innerHTML = `
             font-family: 'Arial', sans-serif;
             display: flex;
             flex-direction: column;
-            margin-top: 30px
+            margin: 30px auto
         }
         .glt-wrapper-monitoring{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            margin: 0 auto;
+            margin: 20px auto;
         }
         .glt-title-monitoring {
             display: flex;
@@ -24,7 +24,7 @@ template.innerHTML = `
             margin: 10px auto;
         }
         .glt-monitoring img {
-            width: 8%;
+            width: 7%;
         }
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
