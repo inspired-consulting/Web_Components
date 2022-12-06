@@ -39,7 +39,7 @@ template.innerHTML = `
                 </div>
             </div>
             <div class="glt-monitoring-table">
-                <table class="table mt-3">
+                <table class="table mt-3  table-hover ">
                     <thead>
                         <tr>
                             <th>S No</th>
@@ -77,11 +77,11 @@ class TestBootstrap extends HTMLElement {
                     <td>${values.username}</td>
                     <td>${values.email}</td>
                     <td>${values.phone}</td>
-                    <td>${values.address.city}</td>
+                    <td>${values.address.city}, ${values.address.zipcode}</td>
                 </tr>`;
             });
             this.shadowRoot.querySelector("tbody").innerHTML = tableData;
         });
     }
 }
-customElements.define('geo-strap', TestBootstrap);
+customElements.define('geo-bootstrap', TestBootstrap);
