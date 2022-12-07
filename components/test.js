@@ -28,7 +28,7 @@ template.innerHTML = `
         }
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <div class="container table-responsive-md">
+    <div class="container ">
         <div class="glt-monitoring">
             <div class="glt-wrapper-monitoring">
                 <h3>Baurecht-Monitoring</h3>
@@ -38,16 +38,16 @@ template.innerHTML = `
                     <h3>GeoLegalTech</h3>
                 </div>
             </div>
-            <div class="glt-monitoring-table">
+            <div class="glt-monitoring-table table-responsive-md">
                 <table class="table mt-3  table-hover ">
                     <thead>
                         <tr>
-                            <th>S No</th>
-                            <th>name</th>
-                            <th>username</th>
-                            <th>email</th>
-                            <th>phone</th>
-                            <th>address</th>
+                            <th>S. No.</th>
+                            <th>Name</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Address</th>
                         </tr>
                     </thead>
                     <tbody></tbody>
